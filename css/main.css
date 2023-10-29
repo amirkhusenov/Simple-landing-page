@@ -1,0 +1,551 @@
+body {
+    background-color: #191919;
+    overflow-x: hidden;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 43px;
+    margin-left: 50px;
+}
+.nav-links {
+    display: flex;
+    gap: 40px;
+    margin-top: 46px;
+    margin-right: 70px;
+}
+.nav-item {
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    transition: color .2s ease-in;
+}
+.nav-item:hover {
+    color: #118DA8;
+}
+.active {
+    color: #118DA8;
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.main-img {
+    margin-top: 83px;
+    margin-left: 70px;
+    width: 650px;
+    height: 873.438px;
+    border-radius: 12px;
+}
+.main-text {
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+
+    width: 526px;
+}
+.main-text-2 {
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+
+    width: 160px;
+
+    position: relative;
+}
+.main-text-2::before {
+    content: '';
+    
+    position: absolute;
+    left: 0;
+    bottom: -5;
+    width: 160px;
+    height: 104px;		
+    
+    background-image: url(./../img/line.png);
+    background-repeat: no-repeat;
+
+}
+.text-1 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.main-text-3 {
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3.2px;
+}
+.social-text {
+    margin-top: 74px;
+    margin-left: 22px;
+    
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.social-links {
+    margin-top: 16px;
+    margin-left: 22px;
+    display: flex;
+    gap: 16px;
+}
+.social-item {
+    cursor: pointer;
+}
+.episodes-title {
+    display: flex;
+    justify-content: space-between;
+}
+.episodes-text {
+    margin-top: 93px;
+    margin-left: 70px;
+
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2.88px;
+}
+.episodes-btn {
+    margin-top: 124px;
+    margin-right: 70px;
+
+    width: 178px;
+    height: 51px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    
+    padding: 12px 15px;
+    text-align: center;
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+
+    transition: all .2s ease-in;
+}
+.episodes-btn:hover {
+    color: #118DA8;
+    background-color: #FFF;
+}
+
+.episodes-card {
+    width: 1300px;
+    height: 565px;
+    border-radius: 32px;
+    margin: 60px 70px;
+    background-color: #000;
+}
+.episodes-card-1 {
+    display: flex;
+}
+
+.episodes-card-img {
+    width: 389px;
+    height: 525px;
+
+    padding-top: 40px;
+    padding-left: 40px;
+   
+
+}
+.episodes-card-text {
+    margin-top: 48px;
+    margin-left: 53px;
+    
+    background-color: #191919;
+    width: 73px;
+    height: 27px;
+    border-radius: 6px;
+    text-align: center;
+
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.subtitle {
+    padding-top: 48px;
+
+    color: #118DA8;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    width: 90px;
+}
+.subtitle::after {
+    content: '3';
+
+    padding-left: 5px;
+}
+.episodes-tile {
+    padding-top: 18px;
+    width: 701px;
+    text-align: left;
+
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+}
+.episodes-under-title {
+    padding-top: 28px;
+    width: 757px;
+    text-align: left;
+
+    color: rgba(255, 255, 255, 0.70);
+
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+}
+.episodes-card-btn {
+    margin-top: 18px;
+    margin-bottom: 40px;
+
+    width: 208px;
+    height: 51px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    
+    padding: 12px 15px;
+    text-align: center;
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+
+    transition: all .2s ease-in;
+}
+.episodes-card-btn:hover {
+    color: #118DA8;
+    background-color: #FFF;
+}
+.episodes-card-2{
+    display: flex;
+    width: 1300px;
+    height: 565px;
+    border-radius: 32px;
+    margin: 60px 70px;
+    background-color: #000;
+}
+
+.about {
+    margin-left: 50px;
+    
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    justify-content: space-around;
+}
+.circle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #118DA8;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+
+    color: #FFF;
+
+    transition: all .2s ease-in;
+}
+.circle-btn:hover {
+    background-color: #FFF;
+    color: #118DA8;
+}
+.subtitle-1 {
+    width: 126px;
+    
+    color: #118DA8;
+
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.title {
+    margin-bottom: 28px;
+    
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+}
+.text {
+    width: 556px; 
+    margin-bottom: 33px;
+    
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+.text-1 {
+    width: 556px;
+    
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+.about-img {
+    margin-right: 110px;
+
+    width: 650px;
+    height: 743px;
+}
+.contact {
+    margin-top: 150px;
+    margin-left: 70px;
+    
+    width: 1300px;
+    height: 387px;
+
+    border-radius: 32px;
+    background: #000;
+
+    position: relative;
+
+}
+.contact::before {
+    content: '';
+    
+    position: absolute;
+    left: -36px;
+    bottom: -26px;
+    width: 147px;
+    height: 91px;		
+    
+    background-image: url(./../img/icon-2.png);
+    background-repeat: no-repeat;
+    
+}
+.contact-bg {
+    display: flex;
+    gap: 210px;
+}
+.contact-text {
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.contact-subtitle {
+    width: 139px;
+    
+    color: #118DA8;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.contact-title {
+    width: 431px;
+    
+    color: #FFF;
+    
+    font-family: DM Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2.88px;
+}
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 20px;
+}
+.name {
+    width: 522px;
+    height: 82px;
+
+    border-radius: 6px;
+    border: 1px solid #191919;
+    background: #191919;
+
+    padding: 26px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 120% */
+    
+    margin-bottom: 20px;
+}
+.email {
+    width: 522px;
+    height: 82px;
+
+    border-radius: 6px;
+    border: 1px solid #191919;
+    background: #191919;
+
+    padding: 26px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; 
+
+    margin-bottom: 20px;
+}
+.contact-btn {
+    width: 87px;
+    height: 48px;
+
+    border-radius: 6px;
+    background: #118DA8;
+
+    color: rgba(255, 255, 255, 0.70);
+
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.8px; 
+
+    transition: all .2s ease-in;
+}
+.contact-btn:hover {
+    color: #118DA8;
+    background-color: #FFF;
+}
+.reviews { 
+    margin-left: 70px;
+    display: grid;    
+    grid-template-columns: 439px 439px 439px;
+    grid-template-rows: 337px 337px 337px;
+}
+.reviews-blocks {
+    margin-top: 200px;
+    
+    width: 423px;
+    height: 321px;
+
+    border-radius: 32px;
+    background: #000;
+
+    display: block;
+}
+.stars {
+    padding-top: 54px;
+    padding-left: 50px;
+    padding-bottom: 20px ;
+}
+.info {
+    display: block;
+}
+.reviews-text {
+    width: 350px;
+    height: 130px;
+    
+    padding-top: 0px;
+    padding-left: 50px;
+    
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+.reviews-author {
+    padding-top: 19px;
+    padding-left: 50px;
+    
+    width: 313px;
+    height: 29px;
+    
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 70px;
+    gap: 16px;
+}
+.set {
+    display: block;
+    width: 447.141px;
+    height: 222px;
+}
+.footer-logo {
+    padding-bottom: 23px;
+}
+.footer-links {
+    gap: 10px;
+}
+.footer-nav-links {
+    width: 178.844px;
+    line-height: 30px;
+}
+.footer-nav-item {
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    transition: color .2s ease-in;
+}
+.footer-nav-links-2 {
+    line-height: 30px;
+}
+.footer-nav-item:hover {
+    color: #118DA8;
+}
+.footer-links {
+    display: flex;
+    width: 447.141px;
+    height: 32px;
+    padding: 0px 218.969px 0px 0.172px;
+    align-items: flex-start;
+    gap: 17px;
+}
+.footer-links-item {
+    padding: 17px;
+}
